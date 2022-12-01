@@ -15,6 +15,6 @@ Reservoir Model
 • It includes a subroutine for handling the PVT, relative permeability and capillary pressure data. Uses a table look-up technique with proper interpolation. Implement “the out-of-the range of the table” checks.
 • It incorporates the variable bubble point formulation.
 • It constructs the Jacobian matrix and the right-hand-side vector for each Newton-Raphson iteration. Uses numerical differentiation to calculate entries of the Jacobian. For the relative permeability calculations, it allows for single- or two-point upstream weighting.
-• It Solves the resulting Jacobian matrix together with the right-hand-side vector using any [A][X]=[B] type solver.
+• It solves the resulting Jacobian matrix together with the right-hand-side vector using any [A][X]=[B] type solver.
 
 For more details please see the Report.pdf in the repository.
